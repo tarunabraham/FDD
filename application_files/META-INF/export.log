@@ -1,0 +1,33 @@
+Success (1):
+application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 "Film Digital Distribution"
+
+Referenced precedents that were not exported (1):
+user tarun.abraham tarun.abraham
+
+Trace:
+2016-05-12 23:19:23.092 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Begin transport.
+2016-05-12 23:19:23.092 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Retrieving object data.
+2016-05-12 23:19:23.095 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 App associated objects: []
+2016-05-12 23:19:23.095 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Invalid associated objects: []
+2016-05-12 23:19:23.095 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Adding valid associated objects to be exported: GlobalBindingMap[]
+2016-05-12 23:19:23.096 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Setting uuids of object references.
+2016-05-12 23:19:23.096 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: Application.forum
+2016-05-12 23:19:23.097 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: Application.parent
+2016-05-12 23:19:23.098 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: com.appiancorp.suiteapi.content.ContentRoleMap@2fd65655[
+  ContentRole[name=readers,inherit=false,allowForAll=false]
+  ContentRole[name=authors,inherit=false,allowForAll=false]
+  ContentRole[name=administrators,usernames=[tarun.abraham],inherit=false,allowForAll=false]
+  ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+  ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+  ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+  securityVector=129:SEC_PUBLIC=true,SEC_CREATOR_ADMIN=true,SEC_INH_ADMIN=false,SEC_INH_EDITOR=false,SEC_INH_VIEWER=false,SEC_ALL_ADMIN=false,SEC_ALL_EDITOR=false,SEC_ALL_VIEWER=false
+]
+2016-05-12 23:19:23.098 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: ContentRole[name=readers,inherit=false,allowForAll=false]
+2016-05-12 23:19:23.099 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=false]
+2016-05-12 23:19:23.099 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: ContentRole[name=administrators,usernames=[tarun.abraham],inherit=false,allowForAll=false]
+2016-05-12 23:19:23.099 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
+2016-05-12 23:19:23.099 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
+2016-05-12 23:19:23.099 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
+2016-05-12 23:19:23.1 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Exporting binary resources.
+2016-05-12 23:19:23.1 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Serializing object to XML.
+2016-05-12 23:19:23.106 DEBUG application 2744 _a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750 Object transported.
