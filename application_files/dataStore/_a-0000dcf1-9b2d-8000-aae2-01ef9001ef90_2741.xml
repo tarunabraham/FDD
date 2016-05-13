@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataStoreHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <dataStore>
+        <uuid>_a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741</uuid>
+        <name>FDD Tables</name>
+        <description>Data Store that contains all Custom Data Type References to associated Film Digital Distribution tables</description>
+        <dataSourceKey>jdbc/BusinessDS</dataSourceKey>
+        <adaptingExplicitSqlNames>false</adaptingExplicitSqlNames>
+        <autoUpdateSchema>false</autoUpdateSchema>
+        <entities>
+            <entity>
+                <uuid>f5499b68-a208-4cc0-8a8e-d188f5638eb5</uuid>
+                <name>FDD_FilmTitleInfo</name>
+                <type>{urn:com:appian:FDD:types}FDD_FilmTitleInfo</type>
+            </entity>
+        </entities>
+    </dataStore>
+    <isPublished>true</isPublished>
+    <roleMap>
+        <role allowForAll="false" inherit="false" name="administrators">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000dcf1-8171-8000-aae2-011e94011e94_8</groupUuid>
+            </groups>
+        </role>
+        <role allowForAll="false" inherit="false" name="authors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAdministrators">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyAuthors">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="denyReaders">
+            <users/>
+            <groups/>
+        </role>
+        <role allowForAll="false" inherit="false" name="readers">
+            <users/>
+            <groups>
+                <groupUuid>_e-0000dcf1-8171-8000-aae2-011e94011e94_9</groupUuid>
+            </groups>
+        </role>
+    </roleMap>
+</dataStoreHaul>
