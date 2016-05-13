@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema targetNamespace="urn:com:appian:FDD:types"
+  xmlns:tns="urn:com:appian:FDD:types" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <xsd:complexType name="FDD_FilmTitleInfo">
+    <xsd:annotation>
+      <xsd:appinfo source="appian.jpa">
+				@Table(name="fdd_film_title")
+			</xsd:appinfo>
+      <xsd:documentation><![CDATA[Data type to store Title Level information associated with a film.]]></xsd:documentation>
+    </xsd:annotation>
+    <xsd:sequence>
+      <xsd:element name="filmID" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Id @GeneratedValue @Column(name="FILM_ID")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="movieTitle" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="MOVIE_TITLE")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="rating" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="RATING")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="primaryDistributor" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="PRIMARY_DISTRIBUTOR")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="secondaryDistributor" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="SECONDARY_DISTRIBUTOR")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="domesticBoxOffice" nillable="true" type="xsd:double">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="DOMESTIC_BOX_OFFICE")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="worldwideBoxOffice" nillable="true" type="xsd:double">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="WW_BOX_OFFICE")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="categorization" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="CATEGORIZATION")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="genre" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="GENRE")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="synopsis" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="SYNOPSIS")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="director" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="DIRECTOR")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="producer" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="PRODUCER")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="cast" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="CAST")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="writer" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="WRITER")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="productionYear" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="PRODUCTION_YEAR")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="initialReleaseYear" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="INITIAL_RELEASE_YEAR")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="EIDRID" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="EIDR_ID")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="statusTypeID" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="STATUS_TYPE_ID")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="folderID" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="APN_FOLDER_ID")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="titleImageDocID" nillable="true" type="xsd:int">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="APN_TITLE_IMAGE_DOC_ID")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="createdBy" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="CREATED_BY")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="createdDTTM" nillable="true" type="xsd:dateTime">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="CREATED_DTTM")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="updatedBy" nillable="true" type="xsd:string">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="UPDATED_BY")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+      <xsd:element name="updatedDTTM" nillable="true" type="xsd:dateTime">
+        <xsd:annotation>
+          <xsd:appinfo source="appian.jpa">@Column(name="UPDATED_DTTM")</xsd:appinfo>
+        </xsd:annotation>
+      </xsd:element>
+    </xsd:sequence>
+  </xsd:complexType>
+</xsd:schema>

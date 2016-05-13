@@ -1,9 +1,8 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>Film Digital Distribution</name>
         <uuid>_a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750</uuid>
-        <description></description>
+        <description/>
         <parentUuid>SYSTEM_APPLICATIONS_ROOT</parentUuid>
         <visibility>
             <advertise>false</advertise>
@@ -21,11 +20,15 @@
             <globalIdMap>
                 <item>
                     <type>datatype</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>{urn:com:appian:FDD:types}FDD_FilmTitleInfo.xsd</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>dataStore</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>_a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>user</type>
@@ -37,7 +40,12 @@
                 </item>
                 <item>
                     <type>group</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>_e-0000dcf1-8171-8000-aae2-011e94011e94_8</uuid>
+                        <uuid>_e-0000dcf1-8171-8000-aae2-011e94011e94_9</uuid>
+                        <uuid>_e-0000dcf1-8171-8000-aae2-011e94011e94_10</uuid>
+                        <uuid>_e-0000dcf1-8171-8000-aae2-011e94011e94_11</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>content</type>
