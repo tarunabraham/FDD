@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
     <application>
         <name>Film Digital Distribution</name>
         <uuid>_a-0000dcf1-aba9-8000-aae2-01ef9001ef90_2750</uuid>
