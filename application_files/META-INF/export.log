@@ -1,125 +1,62 @@
-Success (6):
-datatype 1606 {urn:com:appian:FDD:types}FDD_FilmTitleInfo "{urn:com:appian:FDD:types}FDD_FilmTitleInfo"
-dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 "FDD Tables"
-group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 "FDD Administrators"
-group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 "FDD All Users"
-group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 "FDD Designers"
-group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 "FDD Application Support"
+Success (2):
+processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 "Film Digital Distribution"
+processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 "Update Film"
+
+Referenced precedents that were not exported (3):
+group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8
+group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10
+group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11
 
 Trace:
-2016-05-21 00:22:37.437 DEBUG datatype 1606 {urn:com:appian:FDD:types}FDD_FilmTitleInfo Begin transport.
-2016-05-21 00:22:37.491 DEBUG datatype 1606 {urn:com:appian:FDD:types}FDD_FilmTitleInfo Retrieving object data.
-2016-05-21 00:22:37.705 DEBUG datatype 1606 {urn:com:appian:FDD:types}FDD_FilmTitleInfo Setting uuids of object references.
-2016-05-21 00:22:37.754 DEBUG datatype 1606 {urn:com:appian:FDD:types}FDD_FilmTitleInfo Exporting binary resources.
-2016-05-21 00:22:37.754 DEBUG datatype 1606 {urn:com:appian:FDD:types}FDD_FilmTitleInfo Serializing object to XML.
-2016-05-21 00:22:37.756 DEBUG datatype 1606 {urn:com:appian:FDD:types}FDD_FilmTitleInfo Object transported.
-2016-05-21 00:22:37.758 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Begin transport.
-2016-05-21 00:22:37.758 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Retrieving object data.
-2016-05-21 00:22:37.762 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Setting uuids of object references.
-2016-05-21 00:22:37.766 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Processing reference: datatypeRef[id=1606]
-2016-05-21 00:22:37.768 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Processing reference: ContentRole[name=administrators,groupIds=[8],inherit=false,allowForAll=false]
-2016-05-21 00:22:37.769 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Begin transport.
-2016-05-21 00:22:37.769 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Retrieving object data.
-2016-05-21 00:22:37.773 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Setting uuids of object references.
-2016-05-21 00:22:37.775 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Processing reference: Role[name=<null>]
-2016-05-21 00:22:37.777 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Processing reference: Group.groupTypeId
-2016-05-21 00:22:37.778 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Processing reference: Group.parentId
-2016-05-21 00:22:37.779 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Begin transport.
-2016-05-21 00:22:37.779 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Retrieving object data.
-2016-05-21 00:22:37.782 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Setting uuids of object references.
-2016-05-21 00:22:37.782 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Role[name=<null>,groupIds=[8]]
-2016-05-21 00:22:37.783 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Begin transport.
-2016-05-21 00:22:37.783 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Loop detected: [group:8, group:9]
-2016-05-21 00:22:37.783 DEBUG group 8 Breaking loop [group:8, group:9]. group:9 will be transported with its reference to 8 nulled out and will require a second pass.
-2016-05-21 00:22:37.784 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Group.groupTypeId
-2016-05-21 00:22:37.785 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Group.parentId
-2016-05-21 00:22:37.786 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Group.homePageId
-2016-05-21 00:22:37.786 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Role[name=<null>,groupIds=[8, 10, 11]]
-2016-05-21 00:22:37.786 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Begin transport.
-2016-05-21 00:22:37.786 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Loop detected: [group:8, group:9]
-2016-05-21 00:22:37.786 DEBUG group 8 Breaking loop [group:8, group:9]. group:9 will be transported with its reference to 8 nulled out and will require a second pass.
-2016-05-21 00:22:37.786 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Begin transport.
-2016-05-21 00:22:37.786 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Retrieving object data.
-2016-05-21 00:22:37.79 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Setting uuids of object references.
-2016-05-21 00:22:37.79 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Role[name=<null>,groupIds=[8]]
-2016-05-21 00:22:37.79 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Begin transport.
-2016-05-21 00:22:37.79 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Loop detected: [group:8, group:9, group:10]
-2016-05-21 00:22:37.79 DEBUG group 8 Breaking loop [group:8, group:9, group:10]. group:10 will be transported with its reference to 8 nulled out and will require a second pass.
-2016-05-21 00:22:37.791 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Group.groupTypeId
-2016-05-21 00:22:37.792 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Group.parentId
-2016-05-21 00:22:37.792 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Begin transport.
-2016-05-21 00:22:37.793 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Loop detected: [group:9, group:10]
-2016-05-21 00:22:37.793 DEBUG group 9 Breaking loop [group:9, group:10]. group:10 will be transported with its reference to 9 nulled out and will require a second pass.
-2016-05-21 00:22:37.793 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Group.homePageId
-2016-05-21 00:22:37.793 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Role[name=<null>]
-2016-05-21 00:22:37.794 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Object transported with these references nulled out: [group:8, group:9]
-2016-05-21 00:22:37.794 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Begin transport.
-2016-05-21 00:22:37.794 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Retrieving object data.
-2016-05-21 00:22:37.797 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Setting uuids of object references.
-2016-05-21 00:22:37.797 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Role[name=<null>,groupIds=[8]]
-2016-05-21 00:22:37.798 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Begin transport.
-2016-05-21 00:22:37.798 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Loop detected: [group:8, group:9, group:11]
-2016-05-21 00:22:37.798 DEBUG group 8 Breaking loop [group:8, group:9, group:11]. group:11 will be transported with its reference to 8 nulled out and will require a second pass.
-2016-05-21 00:22:37.798 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Group.groupTypeId
-2016-05-21 00:22:37.799 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Group.parentId
-2016-05-21 00:22:37.799 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Begin transport.
-2016-05-21 00:22:37.799 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Loop detected: [group:9, group:11]
-2016-05-21 00:22:37.799 DEBUG group 9 Breaking loop [group:9, group:11]. group:11 will be transported with its reference to 9 nulled out and will require a second pass.
-2016-05-21 00:22:37.799 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Group.homePageId
-2016-05-21 00:22:37.8 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Role[name=<null>]
-2016-05-21 00:22:37.8 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Object transported with these references nulled out: [group:8, group:9]
-2016-05-21 00:22:37.8 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Object transported with these references nulled out: [group:8]
-2016-05-21 00:22:37.8 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Binding pending incomplete: group:10
-2016-05-21 00:22:37.8 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Binding pending incomplete: group:11
-2016-05-21 00:22:37.801 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Processing reference: Group.homePageId
-2016-05-21 00:22:37.801 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Processing reference: Role[name=<null>]
-2016-05-21 00:22:37.801 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Exporting binary resources.
-2016-05-21 00:22:37.801 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Serializing object to XML.
-2016-05-21 00:22:37.802 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Object transported.
-2016-05-21 00:22:37.802 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Binding pending incomplete: group:9
-2016-05-21 00:22:37.803 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Begin transport.
-2016-05-21 00:22:37.803 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Retrieving object data.
-2016-05-21 00:22:37.806 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Setting uuids of object references.
-2016-05-21 00:22:37.806 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Role[name=<null>,groupIds=[8]]
-2016-05-21 00:22:37.807 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Group.groupTypeId
-2016-05-21 00:22:37.808 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Group.parentId
-2016-05-21 00:22:37.808 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Group.homePageId
-2016-05-21 00:22:37.808 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Processing reference: Role[name=<null>,groupIds=[8, 10, 11]]
-2016-05-21 00:22:37.809 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Exporting binary resources.
-2016-05-21 00:22:37.809 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Serializing object to XML.
-2016-05-21 00:22:37.81 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Removed object from incomplete list.
-2016-05-21 00:22:37.81 DEBUG group 9 _e-0000dcf1-8171-8000-aae2-011e94011e94_9 Object transported.
-2016-05-21 00:22:37.81 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Binding pending incomplete: group:10
-2016-05-21 00:22:37.811 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Begin transport.
-2016-05-21 00:22:37.811 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Retrieving object data.
-2016-05-21 00:22:37.814 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Setting uuids of object references.
-2016-05-21 00:22:37.814 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Role[name=<null>,groupIds=[8]]
-2016-05-21 00:22:37.815 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Group.groupTypeId
-2016-05-21 00:22:37.815 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Group.parentId
-2016-05-21 00:22:37.816 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Group.homePageId
-2016-05-21 00:22:37.816 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Processing reference: Role[name=<null>]
-2016-05-21 00:22:37.816 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Exporting binary resources.
-2016-05-21 00:22:37.816 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Serializing object to XML.
-2016-05-21 00:22:37.817 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Removed object from incomplete list.
-2016-05-21 00:22:37.817 DEBUG group 10 _e-0000dcf1-8171-8000-aae2-011e94011e94_10 Object transported.
-2016-05-21 00:22:37.817 DEBUG group 8 _e-0000dcf1-8171-8000-aae2-011e94011e94_8 Binding pending incomplete: group:11
-2016-05-21 00:22:37.817 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Begin transport.
-2016-05-21 00:22:37.817 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Retrieving object data.
-2016-05-21 00:22:37.826 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Setting uuids of object references.
-2016-05-21 00:22:37.826 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Role[name=<null>,groupIds=[8]]
-2016-05-21 00:22:37.826 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Group.groupTypeId
-2016-05-21 00:22:37.827 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Group.parentId
-2016-05-21 00:22:37.828 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Group.homePageId
-2016-05-21 00:22:37.828 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Processing reference: Role[name=<null>]
-2016-05-21 00:22:37.828 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Exporting binary resources.
-2016-05-21 00:22:37.828 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Serializing object to XML.
-2016-05-21 00:22:37.829 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Removed object from incomplete list.
-2016-05-21 00:22:37.829 DEBUG group 11 _e-0000dcf1-8171-8000-aae2-011e94011e94_11 Object transported.
-2016-05-21 00:22:37.829 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Processing reference: ContentRole[name=authors,inherit=false,allowForAll=true]
-2016-05-21 00:22:37.829 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Processing reference: ContentRole[name=denyAdministrators,inherit=false,allowForAll=false]
-2016-05-21 00:22:37.829 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Processing reference: ContentRole[name=denyAuthors,inherit=false,allowForAll=false]
-2016-05-21 00:22:37.829 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Processing reference: ContentRole[name=denyReaders,inherit=false,allowForAll=false]
-2016-05-21 00:22:37.829 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Processing reference: ContentRole[name=readers,groupIds=[9],inherit=false,allowForAll=true]
-2016-05-21 00:22:37.829 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Exporting binary resources.
-2016-05-21 00:22:37.829 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Serializing object to XML.
-2016-05-21 00:22:37.83 DEBUG dataStore 2740 _a-0000dcf1-9b2d-8000-aae2-01ef9001ef90_2741 Object transported.
+2016-05-21 00:29:15.481 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Begin transport.
+2016-05-21 00:29:15.481 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Retrieving object data.
+2016-05-21 00:29:15.483 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Setting uuids of object references.
+2016-05-21 00:29:15.483 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: ProcessModelFolder.parentFolderId
+2016-05-21 00:29:15.483 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@3c674395[
+  Role[name=ADMIN_OWNER,groupIds=[8]]
+  Role[name=EDITOR,groupIds=[10]]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER,groupIds=[11]]
+  Role[name=MANAGER]
+  Role[name=INITIATOR]
+]
+2016-05-21 00:29:15.483 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: Role[name=ADMIN_OWNER,groupIds=[8]]
+2016-05-21 00:29:15.485 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: Role[name=EDITOR,groupIds=[10]]
+2016-05-21 00:29:15.485 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2016-05-21 00:29:15.485 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: Role[name=VIEWER,groupIds=[11]]
+2016-05-21 00:29:15.486 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: Role[name=MANAGER]
+2016-05-21 00:29:15.486 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Processing reference: Role[name=INITIATOR]
+2016-05-21 00:29:15.486 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Exporting binary resources.
+2016-05-21 00:29:15.486 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Serializing object to XML.
+2016-05-21 00:29:15.487 DEBUG processModelFolder 1 _g-0000dcf0-9eb7-8000-aae2-014d98014d98_1 Object transported.
+2016-05-21 00:29:15.488 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Begin transport.
+2016-05-21 00:29:15.488 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Retrieving object data.
+2016-05-21 00:29:15.512 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Setting uuids of object references.
+2016-05-21 00:29:15.512 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ProcessModelHaul.folderId
+2016-05-21 00:29:15.513 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ProcessModelHaul.modelDashboardPageId
+2016-05-21 00:29:15.513 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ProcessModelHaul.processDashboardPageId
+2016-05-21 00:29:15.513 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ProcessModel.emailAttachmentFolderId
+2016-05-21 00:29:15.514 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ActivityClassParameter[name=pmID,it=23,v=<null>]
+2016-05-21 00:29:15.514 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ActivityClassParameter[name=inMap,it=111,v={}]
+2016-05-21 00:29:15.515 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ActivityClassParameter[name=procInheritsPriority,it=1,v=1]
+2016-05-21 00:29:15.515 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ActivityClassParameter[name=pmUUID,it=3,v=]
+2016-05-21 00:29:15.515 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ActivityClassParameter[name=isAsynchronous,it=26,v=1]
+2016-05-21 00:29:15.515 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ActivityClassParameter[name=isTransparent,it=26,v=1]
+2016-05-21 00:29:15.515 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: ActivityClassParameter[name=inheritSecurity,it=26,v=0]
+2016-05-21 00:29:15.516 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: com.appiancorp.suiteapi.process.ProcessRoleMap@13e29264[
+  Role[name=ADMIN_OWNER,groupIds=[8]]
+  Role[name=EDITOR,groupIds=[10]]
+  Role[name=EXPLICIT_NONMEMBER]
+  Role[name=VIEWER]
+  Role[name=MANAGER,groupIds=[11]]
+  Role[name=INITIATOR]
+]
+2016-05-21 00:29:15.516 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: Role[name=ADMIN_OWNER,groupIds=[8]]
+2016-05-21 00:29:15.518 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: Role[name=EDITOR,groupIds=[10]]
+2016-05-21 00:29:15.519 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: Role[name=EXPLICIT_NONMEMBER]
+2016-05-21 00:29:15.519 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: Role[name=VIEWER]
+2016-05-21 00:29:15.519 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: Role[name=MANAGER,groupIds=[11]]
+2016-05-21 00:29:15.521 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Processing reference: Role[name=INITIATOR]
+2016-05-21 00:29:15.521 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Exporting binary resources.
+2016-05-21 00:29:15.521 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Serializing object to XML.
+2016-05-21 00:29:15.529 DEBUG processModel 0 0002dcf0-a3a4-8000-aae2-014d98014d98 Object transported.
