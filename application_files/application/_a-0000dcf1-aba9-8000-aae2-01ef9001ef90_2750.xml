@@ -58,11 +58,15 @@
                 </item>
                 <item>
                     <type>processModelFolder</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>_g-0000dcf0-9eb7-8000-aae2-014d98014d98_1</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>processModel</type>
-                    <uuids/>
+                    <uuids>
+                        <uuid>0002dcf0-a3a4-8000-aae2-014d98014d98</uuid>
+                    </uuids>
                 </item>
                 <item>
                     <type>portlet</type>
